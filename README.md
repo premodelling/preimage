@@ -16,6 +16,8 @@ The conda environment is `health`. Notes for *filter.txt* (exclude python, pywin
 * conda install -c anaconda python-graphviz seaborn
 * conda install -c anaconda arviz
 
+The [requirements.txt](requirements.txt) filter, i.e., [filter.txt](docs/filter.txt), does not include ``python-graphviz``, ``pywin32``, ``nodejs``
+
 <br>
 
 Resources:
