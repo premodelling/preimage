@@ -4,7 +4,7 @@
 
 <br>
 
-The conda environment is `health`, ad it includes
+The conda environment is `health`, and it includes
 
 * python 3.7.11
 * conda install -c anaconda numpy
