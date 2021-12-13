@@ -4,7 +4,7 @@
 
 <br>
 
-Notes for *filter.txt* (exclude python, pywin32, and nodejs):
+The conda environment is `health`. Notes for *filter.txt* (exclude python, pywin32, and nodejs):
 
 * python 3.7.11
 * conda install -c anaconda numpy
