@@ -4,7 +4,7 @@
 
 <br>
 
-The conda environment is `health`. Notes for *filter.txt* (exclude python, pywin32, and nodejs):
+The conda environment is `health`, ad it includes
 
 * python 3.7.11
 * conda install -c anaconda numpy
@@ -16,7 +16,8 @@ The conda environment is `health`. Notes for *filter.txt* (exclude python, pywin
 * conda install -c anaconda python-graphviz seaborn
 * conda install -c anaconda arviz
 
-The [requirements.txt](requirements.txt) filter, i.e., [filter.txt](docs/filter.txt), does not include ``python-graphviz``, ``pywin32``, ``nodejs``
+The filter of the [requirements.txt](requirements.txt) file, i.e., [filter.txt](docs/filter.txt), does 
+not include ``python``, ``python-graphviz``, ``pywin32``, ``nodejs``.
 
 <br>
 
