@@ -15,6 +15,8 @@ The conda environment is `health`, and it includes
 * conda install -c anaconda tornado==6.1.0
 * conda install -c anaconda python-graphviz seaborn
 * conda install -c anaconda arviz
+* conda install -c anaconda fsspec==2022.1.0
+* conda install -c anaconda dask==2021.10.0
 
 The filter of the [requirements.txt](requirements.txt) file, i.e., [filter.txt](docs/filter.txt), does 
 not include ``python``, ``python-graphviz``, ``pywin32``, ``nodejs``.
