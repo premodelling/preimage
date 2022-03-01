@@ -2,6 +2,9 @@
 The main module
 """
 
+import sys
+import os
+
 
 def main():
 
@@ -19,20 +22,19 @@ def main():
     solutions = [quadratics.quadratic_solve(a, b, c) for a, b, c in zip([5, 1, 1], [1, -4, 1], [-3, 4, 1])]
     print(solutions)
 
-    # dict
-    emily = dictionaries.new_student(name='Emily Bronte')
-    print(emily)
-    dictionaries.add_grade(record=emily, course='Physics', grade=89)
-    dictionaries.add_grade(record=emily, course='Anthropology', grade=91)
-    print(emily)
+    # strings
+    s1 = 'Dog'
+    s2 = 'Rin-Tin-Tin'
+    print(s1 + ":" + s2)
+    print(f"{s1}:{s2}")
 
 
 if __name__ == '__main__':
+    root = os.getcwd()
+    sys.path.append(root)
 
-    import preimage.functions.quadratics
-    import preimage.functions.dictionaries
+    import preimage.algebra.quadratics
 
-    quadratics = preimage.functions.quadratics.Quadratics()
-    dictionaries = preimage.functions.dictionaries.Dictionaries()
+    quadratics = preimage.algebra.quadratics.Quadratics()
 
     main()
