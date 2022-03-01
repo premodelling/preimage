@@ -9,8 +9,6 @@
 * [Virtual Development Environment](#virtual-development-environment)
   * [Anaconda, Conda](#anaconda-conda)
 
-* [Code Snippets](#code-snippets)
-
 * [References](#references)
 
 <br>
@@ -64,23 +62,6 @@ include ``python``, ``python-graphviz``, ``pywin32``, ``nodejs``.
 <br>
 <br>
 
-
-## Code Snippets
-
-### Event rate
-
-```
-    rate = src.sources.EventRate.EventRate()
-
-    for index in diseases.index.values:
-        logger.info(diseases.CAUSE_OF_DEATH_NAME[index])
-        messages = rate.exc(cause_of_death=diseases.CAUSE_OF_DEATH[index])
-        logger.info(messages)
-```
-
-
-<br>
-<br>
 
 ## References
 
